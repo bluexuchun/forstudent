@@ -1,0 +1,51 @@
+.teacher-box {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #dddddd;
+}
+.teacher-box .teacher-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.teacher-box .teacher-content img {
+  max-width: 120px;
+  margin: 0 auto;
+}
+.teacher-box .teacher-content .teacher-name {
+  line-height: 30px;
+}
+.teacher-box .teacher-content .startStyle {
+  font-size: 12px;
+}
+.teacher-box .teacher-content .teacher-content-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.teacher-box .teacher-content .teacher-content-bottom .rightaway {
+  border: 1px solid #2cd3a4;
+  color: #38d39f;
+  width: 70px;
+  font-size: 12px;
+  outline: none;
+  border-radius: 5px;
+}
+.ant-rate-star,
+.ant-rate-star-full {
+  margin-right: 4px;
+}
+.ant-rate {
+  color: #2cd3a4;
+}
+.or-order {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9f37;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=TeacherItem.css.map */

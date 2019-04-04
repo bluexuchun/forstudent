@@ -1,0 +1,53 @@
+.coursesetting-caontainer {
+  padding: 40px;
+}
+.coursesetting-title {
+  font-size: 17px;
+}
+.courseleft {
+  width: 250px;
+  text-align: end;
+  margin-right: 30px;
+}
+.course-item {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.strengthensel {
+  display: flex;
+  flex: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+.strengthensel .strengthensel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.strengthensel img {
+  max-width: 50px;
+}
+.strengthensel .strengthentitle {
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+.strengthensel-item {
+  margin-right: 80px;
+}
+.activesel {
+  color: #2cd3a4;
+}
+.othersel {
+  border-bottom: none;
+}
+.otherlast {
+  padding-bottom: 30px;
+}
+.line {
+  margin-top: 30px;
+  width: 100%;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+/*# sourceMappingURL=CourseSetting.css.map */
